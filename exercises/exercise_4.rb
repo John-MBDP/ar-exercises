@@ -22,4 +22,7 @@ puts "----------"
   store3 = Store.create(name: "Yaletown", annual_revenue: 430000, mens_apparel: true, womens_apparel: true)
 
   @mens_stores = Store.where(mens_apparel: true)
+  @mens_stores.each do |mens_store|
+    puts "Name: #{mens_store.name} and Annual Revenue #{mens_store.annual_revenue}"
+  end
   
