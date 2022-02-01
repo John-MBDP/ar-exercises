@@ -21,23 +21,23 @@ puts "----------"
 # 4. Go ahead and create some more employees using the create method. You can do this by making multiple calls to create (like you have before.) No need to assign the employees to variables though. Create them through the `@store#` instance variables that you defined in previous exercises. Create a bunch under `@store1` (Burnaby) and `@store2` (Richmond). Eg: `@store1.employees.create(...)`.
 # Your code goes here ...
 
-@store1.employees.create(first_name: "Light", last_name: "House", hourly_rate"$5")
-@store1.employees.create(first_name: "Brad", last_name: "House", hourly_rate"$10")
-@store1.employees.create(first_name: "Mark", last_name: "House", hourly_rate"$15")
+@store1.employees.create(first_name: "Light", last_name: "House", hourly_rate: 5)
+@store1.employees.create(first_name: "Brad", last_name: "House", hourly_rate: 10)
+@store1.employees.create(first_name: "Mark", last_name: "House", hourly_rate: 15)
 
 ######################################################################################
-@store2.employees.create(first_name: "Emily", last_name: "House", hourly_rate"$20")
-@store2.employees.create(first_name: "Vanessa", last_name: "House", hourly_rate"$25")
-@store2.employees.create(first_name: "Light", last_name: "House", hourly_rate"$30")
+@store2.employees.create(first_name: "Emily", last_name: "House", hourly_rate: 20)
+@store2.employees.create(first_name: "Vanessa", last_name: "House", hourly_rate: 25)
+@store2.employees.create(first_name: "Light", last_name: "House", hourly_rate: 30)
 ######################################################################################
-@store4.employees.create(first_name: "Lia", last_name: "House", hourly_rate"$35")
-@store4.employees.create(first_name: "Ciera", last_name: "House", hourly_rate"$40")
-@store4.employees.create(first_name: "Ruby", last_name: "House", hourly_rate"$45")
-######################################################################################
-@store5.employees.create(first_name: "Alicia", last_name: "House", hourly_rate"$50")
-@store5.employees.create(first_name: "Ciera", last_name: "House", hourly_rate"$55")
-@store5.employees.create(first_name: "Jennifer", last_name: "House", hourly_rate"$60")
-######################################################################################
-@store6.employees.create(first_name: "Patricia", last_name: "House", hourly_rate"$65")
-@store6.employees.create(first_name: "Justin", last_name: "House", hourly_rate"$70")
-@store6.employees.create(first_name: "David", last_name: "House", hourly_rate"$75")
+# @store4.employees.create(first_name: "Lia", last_name: "House", hourly_rate"$35")
+# @store4.employees.create(first_name: "Ciera", last_name: "House", hourly_rate"$40")
+# @store4.employees.create(first_name: "Ruby", last_name: "House", hourly_rate"$45")
+# ######################################################################################
+# @store5.employees.create(first_name: "Alicia", last_name: "House", hourly_rate"$50")
+# @store5.employees.create(first_name: "Ciera", last_name: "House", hourly_rate"$55")
+# @store5.employees.create(first_name: "Jennifer", last_name: "House", hourly_rate"$60")
+# ######################################################################################
+# @store6.employees.create(first_name: "Patricia", last_name: "House", hourly_rate"$65")
+# @store6.employees.create(first_name: "Justin", last_name: "House", hourly_rate"$70")
+# @store6.employees.create(first_name: "David", last_name: "House", hourly_rate"$75")
